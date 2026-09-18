@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: burlywood;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 10px;
+    width: 450px;
+    margin: 5px;
+}
+
+.btn {
+    background-color: burlywood;
+    color: black;
+    padding: 10px 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    color: white;
+    background-color: black;
+}
+
+.btn:disabled {
+    background-color: burlywood;
+    cursor: not-allowed;
+}
+
+.disney-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid black;
+    object-fit: cover;
+}
+
+.disney-name {
+    margin: 20px;
+    background-color: burlywood;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+.disney-container {
+    display: none;
+}
