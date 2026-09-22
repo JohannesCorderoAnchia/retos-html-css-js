@@ -31,7 +31,7 @@ function toDoList(task) {
     inputEl.value = "";
     const checkBtnEl = document.createElement("div");
     checkBtnEl.innerHTML = `
-  <i class="fas fa-check-square">
+  <i class="fas fa-check-square"></i>
   `;
     liEl.appendChild(checkBtnEl);
     const trashBtnEl = document.createElement("div");
