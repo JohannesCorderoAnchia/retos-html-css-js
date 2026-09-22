@@ -7,6 +7,7 @@ Colección de proyectos y retos prácticos de desarrollo frontend construidos co
 ## Proyectos Incluidos
 
 | # | Proyecto | Descripción | Tecnologías / APIs |
+|---|---|---|---|
 | 1 | [Pokédex](./pokedex/) | Pokédex interactiva con carga dinámica de los primeros 151 Pokémon y filtrado por tipos. | HTML5, CSS3, JS Vanilla, [PokéAPI](https://pokeapi.co/) |
 | 2 | [Disney Character Generator](./disney-pics-generator/) | Generador aleatorio de personajes de Disney con imagen y nombre. | HTML5, CSS3, JS Vanilla, [Disney API](https://disneyapi.dev/) |
 | 3 | [Calculadora](./calculator/) | Calculadora interactiva con operaciones aritméticas básicas, decimales y borrado. | HTML5, CSS3 Grid/Flexbox, JS Vanilla |
